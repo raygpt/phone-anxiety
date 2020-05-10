@@ -18,8 +18,8 @@ Assumptions:
 
 # How to run
 
-`npm install`
-`npm test --watchAll`
+- `npm install`
+- `npm test --watchAll`
 
 or just go into src and look at the code
 
