@@ -1,6 +1,6 @@
-# A Node.js algorithm for a fictional doctor's appointment service
+# A Node.js algorithm for a hypothetical doctor's appointment service
 
-Sometimes, you just want to put in a date, and within milliseconds, be able to query a database filled with thousands of doctors to see who has an opening for the 7 days.
+Sometimes, you just want to put in a date, and within milliseconds, be able to query a database filled with thousands of doctors to see who has an opening for the next 7 days.
 
 Assumptions:
 
