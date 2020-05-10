@@ -14,6 +14,8 @@ Assumptions:
 
 5. The data in the database will consist of "opening" and "appointment" events in a random order of days and hours, but returned data should be sorted in ascending order by days and hours.
 
+6. Openings can be marked as "weekly_recurring" which means that they only exist once in the database but the algorithm is expected to account for these openings reoccurring every seven days.
+
 6. The query should be optimized for performance and work well on large datasets.
 
 # How to run
