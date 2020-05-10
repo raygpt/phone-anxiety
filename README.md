@@ -1,6 +1,6 @@
-# A Node.js algorithm for a hypothetical doctor's appointment service
+# A Node.js algorithm for a hypothetical appointment booking service
 
-Sometimes, you just want to put in a date, and within milliseconds, be able to query a database filled with thousands of doctors to see who has an opening for the next 7 days.
+Sometimes, you just want to put in a date, and within milliseconds, be able to query a database filled with thousands of service providers to see who has an opening for the next 7 days because phone calls are major sources of anxiety (just a little thing I made for fun).
 
 Assumptions:
 
@@ -21,7 +21,9 @@ Assumptions:
 `npm install`
 `npm test --watchAll`
 
-or just go into src and look at the code idk
+or just go into src and look at the code
 
-Just a little thing I designed for fun. 
+
+
+
 
