@@ -16,6 +16,12 @@ Assumptions:
 
 6. The query should be optimized for performance and work well on large datasets.
 
+# How to run
+
+`npm install`
+`npm test --watchAll`
+
+or just go into src and look at the code idk
 
 Just a little thing I designed for fun. 
 
