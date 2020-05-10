@@ -6,7 +6,7 @@ Assumptions:
 
 1. Two types of events in the DB - "openings" and "appointments"
 
-2. Openings can be of any length of hours, for example, 9:30am-6:00pm or 9:00am-11:30am. Appointments have to be 30 minute blocks.
+2. Openings can be of any length of hours, for example, 9:30am-6:00pm or 9:00am-11:30am. The goal is to return openings of 30-minute blocks in a full workday that may have 0 or more appointments already in it. Appointments also have to be 30 minute blocks.
 
 3. The number of hours marked available on any given day is not known.
 
