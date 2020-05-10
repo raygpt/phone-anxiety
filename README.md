@@ -18,7 +18,7 @@ Assumptions:
 
 6. The query should be optimized for performance and work well on large datasets.
 
-# How to run
+# Running it
 
 - `npm install`
 - `npm test --watchAll`
