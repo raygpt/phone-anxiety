@@ -4,7 +4,7 @@ Sometimes, you just want to put in a date, and within milliseconds, be able to q
 
 Assumptions:
 
-1. Two types of events in the DB - "openings" and "appointments".
+1. Two types of events in the DB - "openings" and "appointments"
 
 2. Openings can be of any length of hours, for example, 9:30am-6:00pm or 9:00am-11:30am. Appointments have to be 30 minute blocks.
 
