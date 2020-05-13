@@ -14,7 +14,7 @@ Assumptions:
 
 5. Appointments are 30-minute blocks, for example, `9:30am-10:00am`.
 
-6. The goal is to return openings (essentially potential appointments) of 30-minute blocks in a full workday that may have 0 or more appointments already in it. 
+6. The goal is to return openings (essentially potential appointments) of 30-minute blocks in a full workday that may have 0 or more appointments already scattered throughout it. 
 
 7. The data in the database will consist of "opening" and "appointment" events in a random order of days and hours, but returned data should be sorted in ascending order by days and hours.
 
