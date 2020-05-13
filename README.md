@@ -12,7 +12,7 @@ Assumptions:
 
 4. This means that openings can be of any length of hours, for example, `9:30am-6:00pm` or `9:00am-11:30am`. 
 
-5. Providers also update the system with their appointments. These are 30-minute blocks, for example, `9:30am-10:00am`.
+5. Providers also update the system with appointments, or blocks of time they aren't available. These are 30-minute blocks, for example, `9:30am-10:00am`.
 
 6. The goal is to return openings (essentially potential appointments) of 30-minute blocks in a full workday that may have 0 or more appointments already scattered throughout it. 
 
