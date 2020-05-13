@@ -18,7 +18,7 @@ Assumptions:
 
 7. The data in the database will consist of "opening" and "appointment" events in a random order of days and hours, but returned data should be sorted in ascending order by days and hours.
 
-8. Providers can aslo submit openings that they have on a regular basis. These are marked as "weekly_recurring" which means that they only exist once in the database but the algorithm is expected to account for these openings reoccurring every seven days.
+8. Providers can also submit openings that they have on a regular basis. These are marked as "weekly_recurring" which means that they only exist once in the database but the algorithm is expected to account for these openings reoccurring every seven days.
 
 9. The returned data should list openings for a given day, in chronological order, for the next 7 days.
 
