@@ -8,7 +8,7 @@ Assumptions:
 
 2. This leads to two types of events in the DB - "openings" and "appointments"
 
-3. The number of hours marked available (opening) on any given day is not known.
+3. The number of hours marked available (openings) on any given day is not previously known. Providers can enter a variable number of opening hours per day.
 
 4. Openings can be of any length of hours, for example, `9:30am-6:00pm` or `9:00am-11:30am`. 
 
