@@ -1,6 +1,6 @@
 # A Node.js algorithm for a hypothetical appointment booking service
 
-Sometimes, you just want to put in a date, and within milliseconds, be able to query a database filled with thousands of service providers to see who has an opening for the next 7 days because phone calls are major sources of anxiety (just a little thing I made for fun).
+Sometimes, you just want to put in a date, and within milliseconds, be able to query a database filled with thousands of service providers to see who has an opening for the next 7 days because phone calls are major sources of anxiety, not to mention time-consuming (just a little thing I made for fun).
 
 Assumptions:
 
