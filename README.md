@@ -32,6 +32,8 @@ Assumptions:
 or just go into src and look at the code
 
 
+# Copyright
 
+the code is outfitted with a clandestine alert that will notify me if it is used without my permission. kindly ask my permission first before you use it.
 
 
