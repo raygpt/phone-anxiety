@@ -4,19 +4,21 @@ Sometimes, you just want to put in a date, and within milliseconds, be able to q
 
 Assumptions:
 
-1. Two types of events in the DB - "openings" and "appointments"
+1. Providers enter their opening hours and booked hours.
 
-2. Openings can be of any length of hours, for example, 9:30am-6:00pm or 9:00am-11:30am. The goal is to return openings of 30-minute blocks in a full workday that may have 0 or more appointments already in it. Appointments also have to be 30 minute blocks.
+2. This leads to two types of events in the DB - "openings" and "appointments"
 
-3. The number of hours marked available on any given day is not known.
+3. Openings can be of any length of hours, for example, `9:30am-6:00pm` or `9:00am-11:30am`. Appointments are 30-minute blocks. The goal is to return openings (basically potential appointments) of 30-minute blocks in a full workday that may have 0 or more appointments already in it. 
 
-4. The returned data should list openings for a given day, in chronological order, for the next 7 days.
+4. The number of hours marked available on any given day is not known.
 
-5. The data in the database will consist of "opening" and "appointment" events in a random order of days and hours, but returned data should be sorted in ascending order by days and hours.
+5. The returned data should list openings for a given day, in chronological order, for the next 7 days.
 
-6. Openings can be marked as "weekly_recurring" which means that they only exist once in the database but the algorithm is expected to account for these openings reoccurring every seven days.
+6. The data in the database will consist of "opening" and "appointment" events in a random order of days and hours, but returned data should be sorted in ascending order by days and hours.
 
-6. The query should be optimized for performance and work well on large datasets.
+7. Openings can be marked as "weekly_recurring" which means that they only exist once in the database but the algorithm is expected to account for these openings reoccurring every seven days.
+
+8. The query should be optimized for performance and work well on large datasets.
 
 # Running it
 
