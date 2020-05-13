@@ -34,6 +34,6 @@ or just go into src and look at the code
 
 # Copyright
 
-This code is outfitted with a clandestine alert that will notify me if it is used without my permission. Kindly ask my permission first before you use it, and I'd be happy to help.
+This code is outfitted with a clandestine alert that will notify me if it is used without my permission. Kindly ask my permission first before you use it and I'd be more than happy to help.
 
 
